@@ -1,0 +1,41 @@
+{
+  "name": "enterpriseai-tpe",
+  "version": "1.0.4",
+  "display_name": "EnterpriseAI TPE — Business Planning Agent",
+  "description": "The Complete, Consistent & Comprehensive (3C) Business & Management Planning framework. Turns Claude into an expert business planning agent using the TPE (Think-Plan-Execute) methodology. Covers whole-firm planning across 6 strategic dimensions and 6 execution drivers.",
+  "author": "Jacques Kemp — EnterpriseAI",
+  "contact": "jacques@infoenterpriseai.nl",
+  "website": "https://www.enterpriseai.com",
+  "license": "EnterpriseAI Pilot License — not for redistribution",
+  "environment": "cowork",
+  "skills": [
+    "skills/tpe-framework.md",
+    "skills/portfolio-driver.md",
+    "skills/marketing-driver.md",
+    "skills/organizational-driver.md",
+    "skills/operational-driver.md",
+    "skills/reputation-driver.md",
+    "skills/financial-driver.md"
+  ],
+  "commands": [
+    "commands/tpe-quick-scan.md",
+    "commands/tpe-full-plan.md",
+    "commands/tpe-driver-audit.md",
+    "commands/tpe-alignment-check.md",
+    "commands/tpe-connect-the-dots.md",
+    "commands/tpe-kpi-dashboard.md",
+    "commands/tpe-onboard.md",
+    "commands/tpe-scheduled-review.md"
+  ],
+  "sub_agents": [
+    "sub-agents/parallel-driver-analysis.md"
+  ],
+  "connectors": [
+    "google-drive",
+    "gmail",
+    "google-calendar",
+    "slack"
+  ],
+  "entry_point": "SKILL.md",
+  "instructions": "Instructions-CLAUDE.md"
+}
