@@ -1,0 +1,13 @@
+{
+  "name": "enterpriseai-tpe",
+  "owner": { "name": "EnterpriseAI B.V.", "contact": "jacques@infoenterpriseai.nl" },
+  "plugins": [
+    {
+      "name": "enterpriseai-tpe",
+      "source": "./enterpriseai-tpe",
+      "description": "TPE Business Planning Agent — Complete, Consistent & Comprehensive",
+      "version": "1.0.4",
+      "category": "business-planning"
+    }
+  ]
+}
